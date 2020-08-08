@@ -1,0 +1,16 @@
+En la programación imperativa, de la cual hacen parte muchos de los principales lenguajes de programación tales como C, Java y PHP, 
+un programa se describe en términos de instrucciones, condiciones y pasos que modifican el estado de un programa al permitir la mutación de variables. Mientras, 
+en la programación declarativa un programa se describe en términos de proposiciones y afirmaciones que son declaradas para describir el problema, 
+sin especificar los pasos para resolverlo; en este tipo de programas, el estado no puede ser modificado ya que todos los tipos de datos son inmutables.
+
+Ejemplo de Programación Imperativa: 
+//Se da el nombre a cada uno de los estudiantes
+    $EStudiantes = [1 => 'Juan', 2 => 'Anita', 3 => 'Maria, '4 => 'Alejandro'];
+    $nombres = [];
+    foreach ($Estudiantes as id => name) {
+        $nombres[] = name;
+    }
+
+Ejemplo de Programación Declarativa:
+//Se pide por cada uno de los nombres de los estudientes
+    $nombres = array_values($Estudiantes);
